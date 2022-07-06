@@ -8,4 +8,4 @@ for fn in `cat $wl_pass`; do
 wpscan --url $fn -e  u,vp  >> result
 done
 
-print "Fertig, bitte in result nachsehen"
+print "Done, please check result"
